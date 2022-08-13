@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(68, 66, 66);
+    font-family: sans-serif;
+}
+h2{
+    background-image: linear-gradient(to left, rgb(207, 27, 165), rgb(104, 102, 203));   
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 10px;
+}
+h5{
+    margin: 0%;
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #ff0084,
+      0 0 82px #ff8ed4d5;
+}
+header{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 190px;
+    text-align: center;
+}
+
+input{
+    all: unset;
+}
+
+button{
+    all: unset;
+}
+
+.div-container{
+    display: flex;
+    justify-content: center;
+}
+
+.new-task{
+    background-color: rgb(88, 88, 88);
+    border-radius: 0.5rem;
+    padding: 7px;
+    color: white;
+    transition: 0.5s;
+    width: 500px;
+}
+
+.new-task:hover{
+    background-color: rgb(101, 101, 101);
+    transition: 0.5s;
+}
+
+.new-task:focus{
+    background-color: rgb(101, 101, 101);
+}
+
+.add-button{
+    background-image: linear-gradient(to left, rgb(207, 27, 165), rgb(104, 102, 203));   
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.tasks{
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+@media (min-width: 632px) {
+    .task-el{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(88, 88, 88);;
+        border-radius: 0.5rem;
+        padding: 7px;
+        width: 500px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 632px) {
+    .task-el{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(88, 88, 88);;
+        border-radius: 0.5rem;
+        padding: 7px;
+        width: 250px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 400px) {
+    .task-el{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+        background-color: rgb(88, 88, 88);;
+        border-radius: 0.5rem;
+        padding: 7px;
+        width: 225px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+}
+
+.edit-button{
+    background-image: linear-gradient(to left, rgb(207, 27, 165), rgb(104, 102, 203));   
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.editing{
+    color: #d16ee5;
+}
+
+.delete-el{
+    background-image: linear-gradient(to right, rgb(197, 1, 1), rgb(255, 0, 81), rgb(255, 0, 106),rgb(255, 0, 174));   
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.589);
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.605);
+}
